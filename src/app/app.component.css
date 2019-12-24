@@ -1,13 +1,55 @@
-.carouselExampleSlidesOnly {
-    height: 10px;
+#carouselExampleSlidesOnly {
+    height: -100px;
   }
   
 .negocio{
     font-size: 35px;
     text-align: center;
-    color: white;
+    color: #F2F2F2;
+
 }
 
+#salto{
+    color: #2A3340;
+}
+
+
+
 .jumbotron1{
-    background-color:#364F59;
+    background-color:#2A3340;
+    margin-top: -32px;
+}
+
+.trabajo{
+    color:#F2F2F2; 
+}
+
+#negocio2{
+    color:#F2F2F2;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#botonservicios{
+    background-color:#626973;
+    border-color:#626973;
+}
+
+.card{
+    background-color: #626973;
+    margin-top:50px;
+}
+
+.card-title{
+    color:#F2F2F2; 
+    text-align: center;
+}
+
+#socialmedia{
+    margin-top: -10;
+}
+
+#ayudarte{
+    text-align: center;
+    color: #F2F2F2;
 }

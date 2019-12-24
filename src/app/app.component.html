@@ -35,7 +35,6 @@
   </div>
 </nav>
 
-
 <!---------------------BASE DE BARRA DE NAVEGACION------------------------------------------------------------------------->
 
 <div class="jumbotron">
@@ -43,7 +42,7 @@
   <p class="lead">Montuosa es una Empresa dedicada a desarrollar tecnologias digitales para tu Negocio.</p>
   <hr class="my-4">
   <p>Si necesitas una Pagina Web y/o  Aplicacion Movil para tu negocio e incluso el diseño total de tu marca nosotros podemos ayudarte. Trabajemos Juntos!.</p>
-  <a class="btn btn-info" href="#" role="button">Ver Nuestros Servicios</a>
+  <a class="btn btn-info" href="#" role="button" id="botonservicios">Ver Nuestros Servicios</a>
 </div>
   
 
@@ -53,30 +52,54 @@
 
 
 <div class="jumbotron1">
-  <h3 class="negocio">Tu Negocio</h3>
-  <p class="lead">Una Mejor imagen de tu marca Aumentara tu Ventas y lograras tener una mejor Confianza con nuevos Clientes.</p>
+  <h3 class="negocio" id="salto">. </h3>
+  <h3 class="negocio" >Crece tu Negocio </h3>
 
 
-
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FBarberia.jpeg?alt=media&token=3fe9a4ee-a1d3-46e7-b482-181ff373c936" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FCafeteria.jpeg?alt=media&token=fad575dc-7e78-4d5f-9a3d-b28a74a3db84" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FComida.jpeg?alt=media&token=a8b15faf-f82c-42b7-bcf8-e0e56e391b5d" class="d-block w-100" alt="...">
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Barberias</h5>
+        <p class="card-text">¿Deseas abrir una barberia o mejorar el diseño de una ya existente? , nosotros podemos ayudarte</p>
+      <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FBarberia.jpeg?alt=media&token=3fe9a4ee-a1d3-46e7-b482-181ff373c936" class="card-img-top" alt="...">
       </div>
     </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Cafeterias / Restaurantes</h5>
+        <p class="card-text">Aumenta tus ventas y mejora el diseño para lograr una mejor presentacion de tu negocio.</p>
+      <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FComida.jpeg?alt=media&token=a8b15faf-f82c-42b7-bcf8-e0e56e391b5d" class="card-img-top" alt="...">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tiendas de Ropa</h5>
+        <p class="card-text">Desde tu Tienda en linea hasta el mejorar el aspecto de presentacion de tu Tienda en linea.</p>
+      <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FRopa.jpeg?alt=media&token=6410891e-93ad-408c-814c-d877b01aa8a9" class="card-img-top" alt="...">
+      </div>
+    </div>
+
+
   </div>
-
-
+  <h3 class="negocio" id="salto">. </h3>
+  <h3 class="negocio" id="salto">. </h3>
+  
 </div>
+
+
 <!---------------------------------------------------------------------------------------------->
 
-
+<div class="card mb-3" id="socialmedia">
+  <img src="https://firebasestorage.googleapis.com/v0/b/montuosa-67aac.appspot.com/o/Carrusel%2FRedesdoSociales.jpeg?alt=media&token=bfc41a9b-831f-4b80-a361-2fdf9017ca24" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Tus Redes Sociales</h5>
+    <p class="card-text">Tus redes sociales son la primera imprecion que tendran tus clientes sobre ti. Un buen diseño lograra una  
+     buena primera imprecion en nuevos Clientes.</p>
+     <p  id="ayudarte">Nosotros Podemos Ayudarte.</p>
+  </div>
+</div>
 
 <!---------------------------------------------------------------------------------------------->
   <router-outlet></router-outlet>

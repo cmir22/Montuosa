@@ -1,0 +1,58 @@
+#salto{
+    color: #2A3340;
+}
+
+
+
+.jumbotron1{
+    background-color:#2A3340;
+    margin-top: -32px;
+}
+
+.trabajo{
+    color:#F2F2F2; 
+}
+
+
+
+#botonservicios{
+    background-color:#626973;
+    border-color:#626973;
+}
+
+.card{
+    background-color: #626973;
+    margin-top:50px;
+}
+
+
+
+#socialmedia{
+    margin-top: -10;
+}
+
+
+.card-title{
+    color:#F2F2F2; 
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#descripcion-crecetunegocio{
+    font-size: 20px;
+    color: #F2F2F2;
+    text-align: center;
+    -webkit-text-stroke: 0.4px black;
+}
+
+.negocio{
+    font-size: 35px;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 35px;
+}
+
+#derechos{
+    text-align: center;
+}
